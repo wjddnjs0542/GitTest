@@ -27,7 +27,7 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
         addShortcut(this);
         main = (Button) findViewById(R.id.main);
         second = (Button) findViewById(R.id.second);
-
+Log.e("TEST","TEMP");
         main.setOnClickListener(this);
         second.setOnClickListener(this);
     }
