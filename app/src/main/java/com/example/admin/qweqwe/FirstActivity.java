@@ -31,6 +31,7 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
         Log.e("TEST", "reset");
         Log.e("TEST", "reset2");
         Log.e("TEST", "reset3");
+        Log.e("TEST", "reset4");
         main.setOnClickListener(this);
         second.setOnClickListener(this);
     }
