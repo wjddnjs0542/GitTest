@@ -21,7 +21,7 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity);
-
+        Log.e("TEST","TEST");
         bt = (Button) findViewById(R.id.next);
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
