@@ -31,6 +31,7 @@ Log.e("TEST","TEMP");
         Log.e("TEST","TEST2");
         Log.e("TEST","TEST1");
         Log.e("TEST","TEST4");
+        Log.e("TEST","TEST3");
         main.setOnClickListener(this);
         second.setOnClickListener(this);
     }
