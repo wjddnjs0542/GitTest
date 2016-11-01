@@ -28,6 +28,7 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
         main = (Button) findViewById(R.id.main);
         second = (Button) findViewById(R.id.second);
 Log.e("TEST","TEMP");
+        Log.e("TEST","TEST2");
         main.setOnClickListener(this);
         second.setOnClickListener(this);
     }
